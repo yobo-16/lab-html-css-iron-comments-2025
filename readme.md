@@ -59,14 +59,25 @@ about box-sizing when adding padding and borders
 
 Please find a screenshot of the expected results below:
 
-![Expected Result](./assets/expected_result.png "Expected Result")
+<!-- ![Expected Result](./assets/expected_result.png "Expected Result") -->
+
+<br>
+
+![lab-iron-comments-expected_result](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-frontend-vue/lab-iron-comments-expected_result.png)
+
+<br>
 
 Tip!
 
 Make sure the input types are correct:
 
-![Input type error](./assets/input-types.png "Input type error")
+<!-- ![Input type error](./assets/input-types.png "Input type error") -->
 
+<br>
+
+![lab-iron-comments-input_types](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-frontend-vue/lab-iron-comments-input_types.png)
+
+<br>
 
 ## Extra Resources
 
