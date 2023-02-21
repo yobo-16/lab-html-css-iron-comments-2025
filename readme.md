@@ -50,10 +50,7 @@ Light Blue:  rgb(67, 163, 230)
 Text: rgb(255,255,255)
 ```
 
-```
-Form width should be 250px - remember to think 
-about box-sizing when adding padding and borders
-```
+Form width should be 250px - remember to think about box-sizing when adding padding and borders.
 
 ### Deliverable
 
