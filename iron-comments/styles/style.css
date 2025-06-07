@@ -1,11 +1,50 @@
+*{
+    box-sizing: border-box;
+  }
+
 body {
     padding: 0;
     margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
-
+    background-color: rgb(25, 33, 41);
+    color: rgb(255,255,255);
 }
 
-#form-container {
-    margin: auto;
+.text-label {
+    font-weight: bold;
 }
+
+.check-box-text {
+    font-style: italic;
+    
+}
+
+.button {
+    font-weight: 100;
+    background-color: rgb(67, 163, 230);
+    color: rgb(255,255,255);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 40px;
+    border-color: rgb(67, 163, 230);
+}
+
+.mi-form {
+    margin: 100px 400px ;
+    border: 2px solid rgb(67, 163, 230);
+    border-radius: 3px;
+    width: 250px;
+    padding: 25px 20px 25px 20px;
+}
+
+.label {
+    border: 1px solid rgb(67, 163, 230);
+    border-radius: 1px;
+    width: 180px;
+}
+
+.input-label {
+    width: 20px;
+}
+

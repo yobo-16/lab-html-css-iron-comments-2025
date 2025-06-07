@@ -7,13 +7,30 @@
     
     <title> Iron Comments </title>
     
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" type="text/css" href="/iron-comments/styles/style.css">
 </head>
 <body>
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
-    </form>
+    <div class="mi-form">
+    <form id="form-container" action="/some-url" method="get">
+        <label for="name" class="text-label">Name:</label><br>
+        <input type="text" id="name" name="name" class="label">
+        <br>
+
+        <label for="email" class="text-label">Email: </label><br>
+        <input type="email" id="email" class="label">
+        <br>
+
+        <label for="comment" class="text-label">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="12" cols="18" class="label"></textarea>
+        <br>
+         
+        <form class= "check" action="/some-url" method="get">
+            <p class="check-box-text">Receive email updates? <input class="input-label" type="checkbox" name="agreement" class="label"></p>
+            <button class="button">Submit </button>
+          </form>
+        </form>
+    </div>
 
 </body>
 </html>
